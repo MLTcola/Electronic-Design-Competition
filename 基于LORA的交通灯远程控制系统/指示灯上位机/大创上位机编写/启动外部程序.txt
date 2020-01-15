@@ -1,0 +1,9 @@
+C# winform 启动外部程序 
+
+启用外部程序有很多方法，我自己要启动的程序因为内部调用了第三方的驱动，通过其它的调用方法均无法完美打开，始终有功能缺陷
+下面介绍几种可打开的方式:
+1、通过内置 Process 方式打开程序
+1 Process m_Process = null;
+2 m_Process = new Process();
+3 m_Process.StartInfo.FileName = @"C:\test.exe";
+4 m_Process.Start();

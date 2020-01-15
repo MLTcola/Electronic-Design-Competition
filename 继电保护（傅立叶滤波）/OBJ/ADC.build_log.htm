@@ -1,0 +1,106 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 MLTcola, 1, LIC=FQQNN-YN794-C25L6-DDC0D-WAZN1-TUDP0
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  D:\Download\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+C:\Users\logan\Desktop\继电保护（傅立叶滤波）\USER\ADC.uvprojx
+Project File Date:  06/18/2019
+
+<h2>Output:</h2>
+Build target 'ADC'
+compiling main.c...
+..\HARDWARE\TIMER\timer.h(23): warning:  #1295-D: Deprecated declaration Election - give arg types
+  void Election();
+..\HARDWARE\relay\relay.h(8): warning:  #1295-D: Deprecated declaration RelayInit - give arg types
+  void RelayInit();
+..\HARDWARE\relay\relay.h(11): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c(29): warning:  #1295-D: Deprecated declaration welcome - give arg types
+  void welcome(); 
+main.c(30): warning:  #1295-D: Deprecated declaration Start - give arg types
+  void Start();
+main.c(31): warning:  #1295-D: Deprecated declaration Election - give arg types
+  void Election();
+main.c(195): warning:  #223-D: function "sprintf" declared implicitly
+                sprintf(s, "%3.2f",current);
+main.c(218): warning:  #223-D: function "sprintf" declared implicitly
+                sprintf(s, "%3.2f", (float)ACM*44.2/4096 );
+main.c(236): warning:  #223-D: function "sprintf" declared implicitly
+                sprintf(s, "%3.2f", (float) BCM*44.2/4096 );
+main.c(253): warning:  #223-D: function "sprintf" declared implicitly
+                sprintf(s, "%3.2f", (float) CCM*44.2/4096);
+main.c(269): warning:  #223-D: function "sprintf" declared implicitly
+                sprintf(s, "%3.2f", (float)AVM*663.3/4096);
+main.c(285): warning:  #223-D: function "sprintf" declared implicitly
+                sprintf(s, "%3.2f", (float)BVM*663.3/4096);
+main.c(301): warning:  #223-D: function "sprintf" declared implicitly
+                sprintf(s, "%3.2f", (float)CVM*663.3/4096);
+main.c(326): warning:  #223-D: function "sprintf" declared implicitly
+                sprintf(s, "%3.2f  ", tem);
+main.c: 14 warnings, 0 errors
+compiling stm32f10x_it.c...
+compiling system_stm32f10x.c...
+compiling led.c...
+compiling key.c...
+compiling lcd.c...
+compiling adc.c...
+compiling 12864.c...
+compiling KEYSCAN.c...
+compiling DataHandle.c...
+compiling timer.c...
+..\HARDWARE\TIMER\timer.h(23): warning:  #1295-D: Deprecated declaration Election - give arg types
+  void Election();
+..\HARDWARE\relay\relay.h(8): warning:  #1295-D: Deprecated declaration RelayInit - give arg types
+  void RelayInit();
+..\HARDWARE\relay\relay.h(11): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\TIMER\timer.c: 3 warnings, 0 errors
+compiling relay.c...
+..\HARDWARE\relay\relay.h(8): warning:  #1295-D: Deprecated declaration RelayInit - give arg types
+  void RelayInit();
+..\HARDWARE\relay\relay.h(11): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\relay\relay.c: 2 warnings, 0 errors
+compiling delay.c...
+compiling sys.c...
+compiling usart.c...
+compiling core_cm3.c...
+assembling startup_stm32f10x_hd.s...
+compiling misc.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_tim.c...
+linking...
+Program Size: Code=31072 RO-data=952 RW-data=152 ZI-data=1872  
+FromELF: creating hex file...
+"..\OBJ\ADC.axf" - 0 Error(s), 19 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\logan\Desktop\继电保护（傅立叶滤波）\USER\RTE
+  D:\Download\keil5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
